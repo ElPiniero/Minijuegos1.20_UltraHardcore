@@ -1,0 +1,2 @@
+execute as @a[scores={Tumba=1..}] if data entity @s Inventory.[{}] at @s run function uhc:tumbas/activar
+execute as @e[type=interaction,tag=Cerebro_Tumba] at @s on target run function uhc:tumbas/quitar
